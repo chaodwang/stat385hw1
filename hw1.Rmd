@@ -1,0 +1,42 @@
+---
+title: "hw1_cwang158"
+author: "cw"
+date: "6/19/2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exercise 0
+
+1. Monday, Tuesday, Thursday, 3-5pm
+2. No, should be **"[STAT 385] Group Project question"**
+3. One
+4. 117 Illini Hall
+5. Wednesday, Friday *11am-12:30pm*
+6. James Balamuta [the coatless](https://github.com/coatless)
+7. 37.5 points per phase
+
+## Exercise 1
+
+![Online Analytical Environment](F:\OneDrive\2016uiuc\STAT 385 Statistics Programming Methods\hw\hw1\ex1.jpg)
+
+```{r, echo=FALSE}
+yn = readline(prompt="Hello, what is your name? ")
+cat("Hello ", yn,"! I am R.", sep = "")
+```
+
+![](F:\OneDrive\2016uiuc\STAT 385 Statistics Programming Methods\hw\hw1\ex1_2.jpg)
+
+## Exercise 2
+
+[GitHub: Chao Wang](https://github.com/chaodwang)
+
+[stat385hw1](https://github.com/chaodwang/stat385hw1)
+
+## Exercise 3
+
+
+
