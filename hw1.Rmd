@@ -23,10 +23,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![Online Analytical Environment](F:\OneDrive\2016uiuc\STAT 385 Statistics Programming Methods\hw\hw1\ex1.jpg)
 
-```{r, echo=FALSE}
+```{r}
 yn = readline(prompt="Hello, what is your name? ")
 cat("Hello ", yn,"! I am R.", sep = "")
 ```
+
 
 ![](F:\OneDrive\2016uiuc\STAT 385 Statistics Programming Methods\hw\hw1\ex1_2.jpg)
 
@@ -38,5 +39,20 @@ cat("Hello ", yn,"! I am R.", sep = "")
 
 ## Exercise 3
 
+![put the commit to GitHub](F:\OneDrive\2016uiuc\STAT 385 Statistics Programming Methods\hw\hw1\ex3.png)
+
+## Exercise 4
+
+```{r}
+a=vector(mode="list",length=25) 
+a[]=0
+
+b0=(1:25)
+b=b0^2
+
+c=seq(0,1,length.out=25)
+
+d=log(b0)
+```
 
 
